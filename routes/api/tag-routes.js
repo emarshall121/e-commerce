@@ -59,7 +59,7 @@ router.put('/:id', (req, res) => {
     res.json(dbTagData);
   })
   .catch(err =>  {
-    console.log(derr);
+    console.log(err);
     res.status(500).json(err);
   });
 });
